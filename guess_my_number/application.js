@@ -1,15 +1,15 @@
 $(document).ready(function(){
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
-  
+  var number=Math.floor(Math.random)()*100);
   
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
     //save their guess as a variable
-    
-    
+    var guess= parseInt($('input').val());
+    console.log(guess)
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    
+    if nmber=
       //what happens if the guess is correct?
       
     //if the user guessed too high...
