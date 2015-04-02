@@ -6,17 +6,23 @@ $(document).ready(function(){
   $('button').on('click', function(){
     //save their guess as a variable
     var guess= parseInt($('input').val());
-    console.log(guess)
+    console.log(play_guess)
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if nmber=
-      //what happens if the guess is correct?
+    if (play_guess===comp_integer){
+    //what happens if the guess is correct?
+    console.log("correct")
+    }
       
     //if the user guessed too high...
+    else if (play_guess>comp_integer){
+     console.log("number too high");
+  }
     
       //update the 'feedback' paragraph to tell them to guess lower
       
     //otherwise, the user guessed too low...
+    console.log('number too low');
     
       //update the 'feedback' paragraph to tell them to guess higher
     
