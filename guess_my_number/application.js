@@ -9,13 +9,13 @@ $(document).ready(function(){
     console.log(play_guess)
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if (play_guess===comp_integer){
+    if (play_guess===number){
     //what happens if the guess is correct?
     console.log("correct")
     }
       
     //if the user guessed too high...
-    else if (play_guess>comp_integer){
+    else if (play_guess>number){
      console.log("number too high");
   }
     
