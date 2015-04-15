@@ -13,7 +13,7 @@ $(document).ready(function(){
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     $('#guess_number').empty();
-    $('guess_number').append("guess so far:" +guess)
+    $('guess_number').append("guess so far:")
     $('feedback').empty();
     if (play_guess===number){
       
