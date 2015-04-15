@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var gues= 0;
+  var guess= 0;
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
   var number=Math.floor(Math.random()*100);
   console.log(number);
