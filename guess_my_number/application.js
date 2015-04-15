@@ -30,7 +30,7 @@ $(document).ready(function(){
       
     //otherwise, the user guessed too low...
     else{
-    console.log('number too low');
+    alert('number too low');
     }
       //update the 'feedback' paragraph to tell them to guess higher
       $("guess_number").empty();
