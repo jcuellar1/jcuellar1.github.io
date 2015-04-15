@@ -12,9 +12,9 @@ $(document).ready(function(){
     var play_guess= parseInt($('input').val());
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    $('#guess_number').empty());
+    $('#guess_number').empty();
     $('guess_number').append("guess so far:" +guess)
-    $('feedback').empty());
+    $('feedback').empty();
     if (play_guess===number){
       
     //what happens if the guess is correct?
