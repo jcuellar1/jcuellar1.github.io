@@ -9,7 +9,8 @@ def move_left():
   
 while 1<2:
   while us_dist(15) >25:
-  fwd()
-stop()
-move_left()
+    fwd()
+  stop()
+ servo(180)
+ if us_dist(15)
 
